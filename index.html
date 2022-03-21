@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap</title>
+   
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" 
+    integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    
+    
+    
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-dark">
+        <a class="navbar-brand text-light" href="#">PetShop AuAu <img width="50px" src="data:image/jpeg;base64,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" alt=""></a>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link text-light" href="#">Produtos <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-light" href="#">Cachorros</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-light" href="#">Gatos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light" href="#">Passáros</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light" href="#">Peixes</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light" href="#">Outros Pets</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light" href="#">Curiosidades</a>
+              </li>
+
+            </ul>
+          <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-light my-2 my-sm-0" type="submit">Search</button>
+          </form>
+        </div>
+      </nav>
+
+
+      <div id="carouselExampleIndicators" class="carousel slide w-75 m-auto" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQrJAmUisv1K_5ieyiUUEXAcIa34fQSNiJJjA&usqp=CAU" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="https://f.i.uol.com.br/fotografia/2018/06/18/15293550715b281b3fba2d3_1529355071_3x2_md.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSu7naZoz9xwWsGzIn6xkDxhSYusfjEzgtA_nQWQ6L3TWHZxDemqrxVEzBl_d2SfULKKvU&usqp=CAU" class="d-block w-100" alt="...">
+          </div>
+                    <div class="carousel-item">
+            <img src="https://luciamalla.com/wp-content/uploads/2008/04/Procurando-Nemo.jpg.webp" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-target="#carouselExampleIndicators" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-target="#carouselExampleIndicators" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </button>
+      </div>
+
+
+<div class="text-center container" style="font-size: 25px; font-weight: bold;" >
+
+   
+<div class="row">
+
+<div class="col bg-sucess">
+    
+    <p>Nos da Petshop AuAu adoramos animais e tratamos todos com carinho. 
+        <br> Conheça nossa linha de rações, suplementos e muito mais pro seu animalzinho
+        <br>
+        <br>
+        <br>
+        <hr>
+        <img src="https://static.wixstatic.com/media/bf2757_ddaef5cddc0c41b0ad64c107ad2e0e40~mv2.gif" alt="">
+
+    </p>
+<h3>COMPRE E GANHE!
+    <br>
+    <br>
+
+</h3>
+    <h4>Na compra de rações das marcas SPECIAL DOG ou PEDIGREE, ganhe uma linda coleira peitoral para cãozinho.</h4> 
+    <img width="300px"src="https://images-americanas.b2w.io/produtos/01/00/sku/36843/3/36843317_1GG.jpg" alt="">
+    <img width="300px"src="https://a-static.mlcdn.com.br/618x463/racao-pedigree-para-caes-filhotes-racas-medias-e-grandes-15-kg/lojamars/10219941/67a80959f506cabc6716a66a9a6370fc.jpg" alt="">
+    <br>
+    <br>
+    <hr>
+    <img width="350px" src="https://media.giphy.com/media/J2OIYon1BRUh0gWLcq/giphy.gif" alt="">
+
+
+
+</div>
+
+</div>
+</div>
+
+<hr>
+
+
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-4">
+            <div class="card" style="width: 18rem;">
+                <img src="https://www.estimacao.com.br/y/1453/Varios-animais-1.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                <h5 class="card-title">Curiosidades</h5>
+                <p class="card-text">Como seu animal reage com sua ausência?</p>
+                <a href="#" class="btn btn-primary">Clique para saber mais...</a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="col-4">
+            <div class="card" style="width: 18rem;">
+                <img src="https://static1.patasdacasa.com.br/articles/5/46/5/@/1600-dormir-com-o-gato-e-uma-atividade-cheia-opengraph_1200-3.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                <h5 class="card-title">Você sabia?</h5>
+                <p class="card-text">Um gato pode dormir até 15 horas por dia.</p>
+                <a href="#" class="btn btn-primary">Clique para saber mais...</a>
+                </div>
+            </div>
+        </div>
+   
+        <div class="col-4">
+            <div class="card" style="width: 18rem;">
+                <img src="https://www.dicaspetz.com.br/wp-content/uploads/2019/03/como-cuidar-do-peixe-beta.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                <h5 class="card-title">Você sabia?</h5>
+                <p class="card-text">Um peixe da espécie betta consegue sobreviver com ar atmosférico.</p>
+                <a href="#" class="btn btn-primary">Clique para saber mais...</a>
+                </div>
+            </div>
+        </div>
+   
+   
+    </div>
+</div>
+
+
+  <div class="text-center m-auto w-75">
+    <h2 class="subtitulo>">Curiosidades do mundo animal</h2> <!-- class é uma classe para puxar em algum lugar-->
+    <iframe  width="560" 
+    height="315" 
+    src="https://www.youtube.com/embed/bBEfAz60i74" 
+    title="YouTube video player" 
+    frameborder="0" 
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+    allowfullscreen></iframe>
+  </div>
+
+     <br>
+
+  
+      <form class="w-50 m-auto text-center" onkeyup="validarNome()" action="">
+            <h1>Entre em contato conosco</h1>
+          <label for="nome">Nome</label>
+          <input type="text" id="nome" placeholder="Digite seu nome" name="nome">
+          <!-- onkeyup é basicamente chamar a funcao no contato.html-->
+          <!-- place holder aparece no campo insira seu dado-->
+          <p id="txtNome"></p>
+          <br>
+          <label for="email">E-mail</label>
+          <input type="email" id="email" placeholder="Digite seu e-mail">
+          <br>
+          <br>
+          <label for="assunto">Assunto</label></br>
+          <textarea name="assunto" id="assunto" cols="50" rows="10"></textarea> </textarea>
+         <br>
+          <input class="btn btn-primary" type="submit" onclick="Enviar()" value="Enviar">
+          </form>
+
+      
+<br>
+<!-- Footer -->
+<footer class="bg-dark text-center text-white">
+    <!-- Grid container -->
+    <div class="container p-4">
+      <!-- Section: Social media -->
+      <section class="mb-4">
+          
+          
+         
+      <!-- Section: Form -->
+      <section class="">
+        <form action="" onkeyup="validarTudo()">
+          <!--Grid row-->
+          <div class="row d-flex justify-content-center">
+            <!--Grid column-->
+            <div class="col-auto">
+              <p class="pt-2">
+                <strong>Cadastre-se aqui para receber nossas promoções: </strong>
+              </p>
+            </div>
+            <!--Grid column-->
+  
+            <!--Grid column-->
+            <div class="col-md-5 col-12">
+              <!-- Email input -->
+              <div class="form-outline form-white mb-4">
+                <input type="email" id="form5Example21" class="form-control" />
+                <label class="form-label" for="form5Example21">Email address</label>
+              </div>
+            </div>
+            <!--Grid column-->
+  
+            <!--Grid column-->
+            <div class="col-auto">
+              <!-- Submit button -->
+              <button type="submit" class="btn btn-outline-light mb-4">
+                Subscribe
+              </button>
+            </div>
+            <!--Grid column-->
+          </div>
+          <!--Grid row-->
+        </form>
+      </section>
+      <!-- Section: Form -->
+  
+      <!-- Section: Text -->
+      <section class="mb-4">
+       
+      </section>
+      <!-- Section: Text -->
+  
+      <!-- Section: Links -->
+      <section class="">
+        <!--Grid row-->
+        <div class="row">
+          <!--Grid column-->
+          <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+            <h5 class="text-uppercase">Siga-nos
+            </h5>
+  
+            <ul class="list-unstyled mb-0">
+              <li>
+                <a href="https://web.facebook.com/auaumiaupetshopcn/?_rdc=1&_rdr" class="text-white">Facebook</a>
+              </li>
+              <li>
+                <a href="https://www.instagram.com/auau.petshop/?hl=pt" class="text-white">Instagram</a>
+              </li>
+                        </ul>
+          </div>
+          
+  <!-- SHOW ahahahahaha -->
+      
+    <!-- Copyright -->
+    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+      © 2022 Copyright:
+      <a class="text-white" href="https://petshopauau.com/">Petshopauau.com</a>
+    </div>
+    <!-- Copyright -->
+  </footer>
+  <!-- Footer -->
+    
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js" integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2" crossorigin="anonymous"></script>   
+<script src="script.js"></script>
+</body>
+</html>
